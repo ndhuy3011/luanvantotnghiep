@@ -1,0 +1,3 @@
+export default {
+  MUTATIONS_SEARCH: 'MUTATIONS_SEARCH',
+}

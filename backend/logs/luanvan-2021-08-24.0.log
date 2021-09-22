@@ -1,0 +1,33 @@
+2021-08-24 22:40:00.819  INFO 9096 --- [main] com.stu.luanvan.BackendApplication       : Starting BackendApplication using Java 11.0.12 on MSI with PID 9096 (D:\luanvan2021\backend\target\classes started by MSI GF75 in D:\luanvan2021\backend)
+2021-08-24 22:40:00.827  INFO 9096 --- [main] com.stu.luanvan.BackendApplication       : No active profile set, falling back to default profiles: default
+2021-08-24 22:40:01.993  INFO 9096 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-24 22:40:02.214  INFO 9096 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 211 ms. Found 18 JPA repository interfaces.
+2021-08-24 22:40:03.202  INFO 9096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (https)
+2021-08-24 22:40:03.215  INFO 9096 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-24 22:40:03.216  INFO 9096 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-08-24 22:40:03.357  INFO 9096 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-24 22:40:03.357  INFO 9096 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2471 ms
+2021-08-24 22:40:03.583  INFO 9096 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-24 22:40:03.660  INFO 9096 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-08-24 22:40:03.852  INFO 9096 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-24 22:40:03.991  INFO 9096 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-24 22:40:04.293  INFO 9096 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-24 22:40:04.333  INFO 9096 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-24 22:40:04.971  WARN 9096 --- [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): com.stu.luanvan.model.key.UserProductKey
+2021-08-24 22:40:04.972  WARN 9096 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): com.stu.luanvan.model.key.UserProductKey
+2021-08-24 22:40:05.884  INFO 9096 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-24 22:40:05.894  INFO 9096 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-24 22:40:06.607  WARN 9096 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-24 22:40:07.097  INFO 9096 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-08-24 22:40:07.303  INFO 9096 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31428f76, org.springframework.security.web.context.SecurityContextPersistenceFilter@5bbb0a25, org.springframework.security.web.header.HeaderWriterFilter@19b4dd60, org.springframework.security.web.authentication.logout.LogoutFilter@34893693, com.stu.luanvan.filter.JwtRequestFilter@45482f82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68aa1164, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5345552f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4257163f, org.springframework.security.web.session.SessionManagementFilter@5692863, org.springframework.security.web.access.ExceptionTranslationFilter@25fc2b8f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a388769]
+2021-08-24 22:40:07.513  INFO 9096 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-24 22:40:08.472  INFO 9096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (https) with context path ''
+2021-08-24 22:40:08.489  INFO 9096 --- [main] com.stu.luanvan.BackendApplication       : Started BackendApplication in 8.278 seconds (JVM running for 8.934)
+2021-08-24 22:45:50.132  INFO 9096 --- [https-jsse-nio-8080-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-24 22:45:50.134  INFO 9096 --- [https-jsse-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-24 22:45:50.155  INFO 9096 --- [https-jsse-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2021-08-24 22:46:17.797  INFO 9096 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-24 22:46:17.799  INFO 9096 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-08-24 22:46:17.804  INFO 9096 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-24 22:46:17.808  INFO 9096 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-24 22:46:17.820  INFO 9096 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,15 @@
+export default () => ({
+  INFORMATION: 'Thông tin nhà cung cấp',
+  SUPPLIER_TILE: 'Danh sách nhà cung cấp',
+  CONTENT_SUPPLIER: 'Danh sách nhà cung cấp vào cửa hàng 7755',
+  SUPPLIER_BTN_SAVE: 'Thêm nhà cung cấp',
+  SUPPLIER_SAVE_NEW: 'Thêm nhà cung cấp mới',
+  SUPPLIER_SAVE_EDIT: 'Sửa thông tin nhà cung cấp',
+  SUPPLIER_ADD_SUCCESS: 'Thêm thành công nhà cung cấp',
+  SAVE_TILE: 'Lưu',
+  SUPPLIER_NAME: 'Tên nhà cung cấp',
+  SUPPLIER_NUMBER: 'Số điện thoại',
+  SUPPLIER_ADDRESS: 'Địa chỉ nhà cung cấp',
+  SUPPLIER_SEARCH: 'Tìm kiếm',
+  SUPPLIER_WEBSITE: 'Địa chỉ website',
+})
